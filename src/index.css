@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Fraunces", serif;
+}
+
+:root {
+  --nw-page: #fbf9f5;
+  --nw-ink: #1d2924;
+  --nw-green: #174b39;
+  --nw-muted: #5a655f;
+  --nw-soft-muted: #7b8981;
+  --nw-border: #e2dbcf;
+  --nw-surface: #ffffff;
+  --nw-subtle-surface: #f4f7f2;
+  --nw-card-radius: 1.25rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #faf8f4;
+  color: #1b2521;
+  font-family: "Inter", sans-serif;
+}
